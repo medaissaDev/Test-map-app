@@ -1,0 +1,63 @@
+.path-input {
+  height: 50px;
+  position: fixed;
+  bottom: 1%;
+  width: 33%;
+  margin: 5px;
+  opacity: 1;
+  z-index: 1000;
+  display: inline-flex;
+}
+
+.saved-paths {
+  height: 50px;
+  position: fixed;
+  top: 1%;
+  width: 80%;
+  margin: 5px;
+  opacity: 1;
+  z-index: 1000;
+  display: inline-flex;
+  left: 6%;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(63, 16, 192);
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  width: 124px;
+  margin: 8px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: unset !important;
+}
+
+.active-btn {
+  background-color: gray;
+}
+
+.clear-btn {
+  border-color: red;
+  width: 30px !important;
+  &:hover {
+    color: white;
+    background-color: red;
+  }
+}

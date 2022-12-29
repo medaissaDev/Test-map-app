@@ -13,7 +13,7 @@ module.exports = (mongoose) => {
           required: true,
         },
       },
-      belongsTo: {
+      path: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Path",
       },
